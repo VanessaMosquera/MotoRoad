@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anek Latin', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(imagenes/fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+    font-family: 'Anek Latin', sans-serif;
+}
+
+.contenedero{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.contenedero1{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    transition: all .5s ease-out;
+}
+
+
+.bienvenida{
+    margin-top: 100px;
+    margin-left: 300px;
+    display: flex;
+    align-items:center ;
+    text-align: center;
+}
+
+.inicio{
+    color: #FFFFFF;
+    font-family: 'Anek Latin', sans-serif;
+    font-size: 20px;
+    width: 500px;
+    height: 250px;
+    margin-bottom: 340px;
+
+}
+
+.inicio h2{
+    font-size: 1.7rem ;
+    padding: 25px;
+    color: #FFFFFF;
+    font-family: 'Anek Latin', sans-serif;
+}
+
+
+.inicio button{
+    padding: 1rem;
+    font-weight: 400;
+    background-color: #fdae54;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: .9rem;
+    margin-top: 25px;
+    transition:  all .3s ease-in;
+    color: rgb(255, 255, 255);
+    font-family: 'Anek Latin', sans-serif;
+    font-weight: 600;
+}
+
+.inicio button:hover{
+    background-color: #5c6b73;
+}
+
+.formulario{
+    width: 400px;
+    padding: 1rem;
+    margin: 2rem;
+    background-color: #25323765;
+    text-align: center;
+    border-radius: 15px;
+
+}
+
+.crear-cuenta{
+    padding: 2.7rem 0;
+    font-size: 25px;
+    font-family: 'Anek Latin', sans-serif;
+}
+
+.formulario input{
+    width: 70%;
+    display: inline-block ;
+    margin: center;
+    margin-bottom: 2rem;
+    background-color: transparent;
+    border: none;
+    border-bottom: #5c6b73  solid;
+    text-align: center;
+    outline: none;
+    padding-top: 15px;
+    font-size: 15px;
+    color: #FFFFFF;
+    padding-bottom: 15px;
+}
+
+.formulario input[type='button']{
+    width: 60%;
+    margin: auto;
+    padding: .7rem;
+    border-radius: 2rem;
+    background-color: #fdae54 ;
+    font-weight: 600;
+    margin-top: 5px;
+    font-size: .8rem;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-family: 'Anek Latin', sans-serif;
+}
+
+.formulario input[type='button']:hover{
+    background-color: #5c6b73;
+}
+
+::placeholder { 
+    color: #FFFFFF; 
+    font-size: 15px;
+    font-family: 'Anek Latin', sans-serif;
+
+}
+
+.clave{
+    text-decoration: none;
+    color: #FFFFFF;
+}

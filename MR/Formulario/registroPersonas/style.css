@@ -1,0 +1,151 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anek Latin', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(imgs/fondo.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.contenedero{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: #FFFFFF;
+
+}
+.bienvenida{
+    display: flex;
+    align-items:center ;
+    text-align: center;
+    margin-top: -100px;
+
+}
+
+.inicio{
+    color: #FFFFFF;
+    font-family: 'Anek Latin', sans-serif;
+    font-size: 20px;
+    width: 500px;
+    height: 250px;
+    margin-bottom: 250px;
+    font-weight: 500;
+
+}
+
+.inicio h2{
+    font-size: 1.7rem ;
+    padding: 25px;
+    color: #FFFFFF;
+    font-family: 'Anek Latin', sans-serif;
+}
+
+.formulario input[type='submit']{
+    background-color: #fdae54;
+    font-family: 'Anek Latin', sans-serif;
+    font-weight: 600;
+    color: #FFFFFF;
+    cursor: pointer;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+    height: 35px;
+}
+.formulario input[type='submit']:hover{
+    background-color: #5C6B73;
+}
+
+.formulario{
+    width: 500px;
+    padding: 1rem;
+    margin: 2rem;
+    background-color: #25323765;
+    text-align: center;
+    border-radius: 15px;
+
+}
+
+.crear-cuenta{
+    padding: 2.7rem 0;
+    font-size: 25px;
+    font-family: 'Anek Latin', sans-serif;
+    color:#FFFFFF
+}
+
+.boton{
+    padding: 1rem;
+    font-weight: 400;
+    background-color: #fdae54;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: .9rem;
+    margin-top: 25px;
+    color: #FFFFFF;
+    font-family: 'Anek Latin', sans-serif;
+    font-weight: 600;
+}
+
+.boton:hover{
+    background-color: #5c6b73;
+}
+.opciones{
+    margin-top: 15px;
+    font-family: 'Anek Latin', sans-serif;
+    display: flex;
+    margin-left: 135px;
+    margin-right: 50px;
+    color: #FFFFFF
+}
+
+
+input[type="radio"] {
+margin-left: -50px;
+margin-top: 2px;
+vertical-align: middle;
+
+  }
+
+.opciones1{
+    font-size: 15px;
+}
+
+.formulario input{
+    width: 70%;
+    display: inline-block ;
+    margin: center;
+    margin-bottom: 2rem;
+    background-color: transparent;
+    border: none;
+    border-bottom: #5c6b73  solid;
+    text-align: center;
+    outline: none;
+    padding-top: 5px;
+    font-size: 15px;
+    color: #FFFFFF;
+    padding-bottom: 5px;
+}
+
+
+::placeholder { 
+    color: #FFFFFF; 
+    font-size: 14px;
+    font-family: 'Anek Latin', sans-serif;
+}
